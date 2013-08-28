@@ -1,4 +1,4 @@
-body{background-color:#e74c46;padding:0;margin:0;font-size:16px;min-width:320px;}
+body{background-color:#e74c46;padding:0;margin:0;font-size:16px;}
 body h1{display:none}
 body img{display:inline-block;vertical-align:top;padding:0;margin:0;width:100%}
 body h3,body h2{color:#303030;font-family:'Nunito'}
@@ -53,7 +53,7 @@ section .banner_1,section #b1_img,section #b1_txt,section #buy_buttons{display:i
 #about_banner #about_txt h3{width:100%;}
 #about_banner #about_txt h3 a{text-decoration:none;color:#26c67f}
 #about_banner #about_txt h3 a:hover{text-decoration:underline;color:#26c69f}
-#credits_article{border:solid .2em #000;margin-top:-5em;padding:.5em;background:#ecf0f1;width:100%;}
+#credits_article{border-top:solid .2em #000;border-bottom:solid .2em #000;margin-top:-5em;padding:.5em;background:#ecf0f1;width:100%;}
 #credits_article #credits_txt{text-align:center;}
 #credits_article #credits_txt h2{width:100%}
 #credits_article .creators_item{text-align:center;margin:0;padding:0;width:100%;}
@@ -68,7 +68,7 @@ section{display:none}
 section #banner_1 #b1_txt h3{font-size:1em}
 section #banner_1 #b1_txt #buy_buttons li img{width:100px}
 }@media only screen and (min-width : 659px ) and (max-width : 991px ){section .article_bans{margin-top:5em}
-section #banner_1 #b1_img{margin-top:2em;margin-left:-1em;border-radius:1em;width:220px}
+section #banner_1 #b1_img{margin-top:2em;margin-left:-1em;border-radius:0;width:220px}
 section #banner_1 #b1_txt{margin:1em;padding:.3em;}
 section #banner_1 #b1_txt h3{font-size:1em}
 section #banner_1 #b1_txt #buy_buttons li img{width:100px}
@@ -82,32 +82,36 @@ section #banner_3 #b3_txt #compass_img{width:70px}
 section #banner_3 #screen_2{width:250px}
 section #banner_3 h3{padding:0;font-size:1em}
 #feedback_banner{margin:0 0;}
-#feedback_banner #feedback_txt{margin:2em}
+#feedback_banner #feedback_txt{width:55%;margin:2em}
 }@media only screen and (min-width : 300px ) and (max-width : 658px ){header img{width:330px}
 section .article_bans{margin-top:2em}
-section #banner_1{text-align:center;border-radius:.7em;}
-section #banner_1 #b1_img{margin-top:2.5em;margin-left:-1em;border-radius:0;width:200px}
-section #banner_1 #b1_txt{margin:0;padding:0;width:80%;}
+section #banner_1{text-align:center;border-radius:0;margin:0;padding:0;border-bottom:solid .1em #000;border-top:solid .1em #000;width:100%;}
+section #banner_1 #b1_img{margin-top:2.5em;margin-left:-1em;border-radius:.5em;width:250px}
+section #banner_1 #b1_txt{margin:0;padding:0;width:100%;}
 section #banner_1 #b1_txt h3{font-size:.8em}
 section #banner_1 #b1_txt h2{font-size:1em}
 section #banner_1 #b1_txt #buy_buttons{margin:0;width:100%;}
 section #banner_1 #b1_txt #buy_buttons li img{width:90px}
-section #banner_2 #b2_txt{margin:0;padding:0;}
+section #banner_2{width:100%;}
+section #banner_2 #b2_txt{margin:0;padding:0;width:100%;}
 section #banner_2 #b2_txt #map_img{width:50px}
-section #banner_2 #screen_1{margin:0;padding:0;width:220px}
+section #banner_2 #screen_1{margin:0;margin-top:1em;padding:0;width:250px}
 section #banner_2 h3{font-size:.8em}
 section #banner_2 h2{font-size:1em}
-section #banner_3{margin-top:0;padding:0;}
-section #banner_3 #b3_txt{margin:0;padding:0;}
+section #banner_3{margin-top:0;padding:0;width:100%;}
+section #banner_3 #b3_txt{margin:0;padding:0;width:100%;}
 section #banner_3 #b3_txt #compass_img{width:50px}
-section #banner_3 #screen_2{width:200px}
+section #banner_3 #screen_2{width:180px;margin-bottom:1em}
 section #banner_3 h2{font-size:1em}
 section #banner_3 h3{padding:0;font-size:.8em}
-#feedback_banner{margin:0 0;}
-#feedback_banner #feedback_txt{margin:2em;}
+#feedback_banner{margin:0 0;width:100%;}
+#feedback_banner #feedback_txt{margin:2em .2em;width:100%;}
 #feedback_banner #feedback_txt h3{font-size:1em}
 #feedback_banner #social_container img{width:60px}
+#about_banner{margin:2em .2em;width:100%;}
+#about_banner #about_txt{width:100%;}
 #about_banner #about_txt h3{font-size:1em}
-.magbutton{width:100px;}
-.magbutton h2{font-size:.87em;font-weight:bold}
+#credits_article{width:100%;padding:0;margin:0}
+.magbutton{width:80px;height:40px;padding:0;}
+.magbutton h2{margin:0;margin-top:-1.3em;padding:0;font-size:.7em;font-weight:bold}
 }
