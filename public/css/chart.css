@@ -1,4 +1,4 @@
-body{background-color:#e74c46;padding:0;margin:0;font-size:16px;}
+body{background-color:#e74c46;padding:0;margin:0;font-size:16px;min-width:320px;}
 body h1{display:none}
 body img{display:inline-block;vertical-align:top;padding:0;margin:0;width:100%}
 body h3,body h2{color:#303030;font-family:'Nunito'}
@@ -12,7 +12,7 @@ header img{width:450px}
 section{width:100%;}
 section article{margin:3em 0}
 section #banner_1{background-color:#ecf0f1;border-top-right-radius:30px;border-bottom-right-radius:30px;width:75%;}
-section #banner_1 #b1_img{width:420px}
+section #banner_1 #b1_img{position:relative;width:420px;height:auto}
 section #banner_1 #b1_txt{text-align:center;margin:2em;width:45%;}
 section #banner_1 #b1_txt #buy_buttons{margin:0;padding:0;width:100%;}
 section #banner_1 #b1_txt #buy_buttons li{display:inline-block;vertical-align:middle;padding:0;margin:.2em}
@@ -30,11 +30,19 @@ section .banner_1,section #b1_img,section #b1_txt,section #buy_buttons{display:i
 #banner_3 #b3_txt{display:inline-block;border-radius:1em;margin:7em 0 7em 6em;padding:.3em 1em 1.3em 1em;text-align:center;width:35%;}
 #banner_3 #b3_txt #map_img,#banner_3 #b3_txt h3{display:inline-block}
 #banner_3 #b3_txt h2{font-family:Nunito;font-weight:bold;text-align:center;width:100%}
-#banner_3 #b3_txt #map_img{margin:-1em .2em 0 .2em;vertical-align:top;padding:.7em 0;width:90px}
 #banner_3 #b3_txt h3{margin:-1em .5em 0 0;padding:.7em 0;width:70%}
 #banner_3 #screen_2{margin:0;padding:0;width:270px}
 .article_bans{margin-top:8em}
 .magbutton h2{font-size:1em;padding:0;margin:0}
+#feedback_banner{margin:8em 0;padding:0;text-align:center;background-color:none;width:100%;}
+#feedback_banner h2,#feedback_banner h3,#feedback_banner img,#feedback_banner a,#feedback_banner #feedback_txt,#feedback_banner #feedback_banner,#feedback_banner #social_container{display:inline-block}
+#feedback_banner h2{width:100%}
+#feedback_banner #feedback_txt{border-radius:1em;padding:1em;width:55%}
+#feedback_banner a{color:#26c69f;text-decoration:none}
+#feedback_banner a:hover{text-decoration:underline}
+#feedback_banner #social_container{width:100%;padding:0;margin:0;}
+#feedback_banner #social_container li{margin:0 1em;opacity:.8}
+#feedback_banner #social_container li:hover{opacity:1}
 #about_article{background-color:rgba(250,250,250,0.25);margin:4em 0;padding:0;text-align:center}
 #about_banner{display:inline-block;padding:0;margin:2em;width:55%;}
 #about_banner #about_txt{border-radius:1em;padding:1em;width:100%;}
@@ -54,14 +62,52 @@ section .banner_1,section #b1_img,section #b1_txt,section #buy_buttons{display:i
 #credits_article .creators_item li a{display:inline-block;}
 #credits_article .creators_item li a .avatar_img{border:solid .15em #000;border-radius:1em;width:100px;opacity:.8}
 #credits_article .creators_item li a .avatar_img:hover{opacity:1}
-#feedback_banner{margin:8em 0;padding:0;text-align:center;background-color:none;width:100%;}
-#feedback_banner h2,#feedback_banner h3,#feedback_banner img,#feedback_banner a,#feedback_banner #feedback_txt,#feedback_banner #feedback_banner,#feedback_banner #social_container{display:inline-block}
-#feedback_banner h2{width:100%}
-#feedback_banner #feedback_txt{border-radius:1em;padding:1em;width:55%}
-#feedback_banner a{color:#26c69f;text-decoration:none}
-#feedback_banner a:hover{text-decoration:underline}
-#feedback_banner #social_container{width:100%;padding:0;margin:0;}
-#feedback_banner #social_container li{margin:0 1em;opacity:.8}
-#feedback_banner #social_container li:hover{opacity:1}
 header{width:0%}
 section{display:none}
+@media only screen and (min-width : 992px) and (max-width : 1200px ){section #banner_1 #b1_img{width:335px}
+section #banner_1 #b1_txt h3{font-size:1em}
+section #banner_1 #b1_txt #buy_buttons li img{width:100px}
+}@media only screen and (min-width : 659px ) and (max-width : 991px ){section .article_bans{margin-top:5em}
+section #banner_1 #b1_img{margin-top:2em;margin-left:-1em;border-radius:1em;width:220px}
+section #banner_1 #b1_txt{margin:1em;padding:.3em;}
+section #banner_1 #b1_txt h3{font-size:1em}
+section #banner_1 #b1_txt #buy_buttons li img{width:100px}
+section #banner_2 #b2_txt{margin:0;padding:0;}
+section #banner_2 #b2_txt #map_img{width:70px}
+section #banner_2 #screen_1{width:330px}
+section #banner_2 h3{font-size:1em}
+section #banner_3{margin-top:1em;}
+section #banner_3 #b3_txt{margin:0 2em;padding:0;}
+section #banner_3 #b3_txt #compass_img{width:70px}
+section #banner_3 #screen_2{width:250px}
+section #banner_3 h3{padding:0;font-size:1em}
+#feedback_banner{margin:0 0;}
+#feedback_banner #feedback_txt{margin:2em}
+}@media only screen and (min-width : 300px ) and (max-width : 658px ){header img{width:330px}
+section .article_bans{margin-top:2em}
+section #banner_1{text-align:center;border-radius:.7em;}
+section #banner_1 #b1_img{margin-top:2.5em;margin-left:-1em;border-radius:0;width:200px}
+section #banner_1 #b1_txt{margin:0;padding:0;width:80%;}
+section #banner_1 #b1_txt h3{font-size:.8em}
+section #banner_1 #b1_txt h2{font-size:1em}
+section #banner_1 #b1_txt #buy_buttons{margin:0;width:100%;}
+section #banner_1 #b1_txt #buy_buttons li img{width:90px}
+section #banner_2 #b2_txt{margin:0;padding:0;}
+section #banner_2 #b2_txt #map_img{width:50px}
+section #banner_2 #screen_1{margin:0;padding:0;width:220px}
+section #banner_2 h3{font-size:.8em}
+section #banner_2 h2{font-size:1em}
+section #banner_3{margin-top:0;padding:0;}
+section #banner_3 #b3_txt{margin:0;padding:0;}
+section #banner_3 #b3_txt #compass_img{width:50px}
+section #banner_3 #screen_2{width:200px}
+section #banner_3 h2{font-size:1em}
+section #banner_3 h3{padding:0;font-size:.8em}
+#feedback_banner{margin:0 0;}
+#feedback_banner #feedback_txt{margin:2em;}
+#feedback_banner #feedback_txt h3{font-size:1em}
+#feedback_banner #social_container img{width:60px}
+#about_banner #about_txt h3{font-size:1em}
+.magbutton{width:100px;}
+.magbutton h2{font-size:.87em;font-weight:bold}
+}

@@ -7,6 +7,7 @@ body
 	padding 0 
 	margin 0 
 	font-size 16px
+	min-width 320px
 	h1
 		display none
 	img
@@ -45,7 +46,9 @@ section
 		border-bottom-right-radius 30px
 		width 75%
 		#b1_img
+			position relative
 			width 420px
+			height auto
 		#b1_txt
 			text-align center
 			margin 2em  
@@ -117,11 +120,6 @@ section
 			font-weight bold
 			text-align center
 			width 100%
-		#map_img
-			margin -1em 0.2em 0 0.2em 
-			vertical-align top
-			padding 0.7em 0 
-			width 90px
 		h3
 			margin -1em 0.5em 0 0
 			padding 0.7em 0 
@@ -139,6 +137,36 @@ section
 		font-size 1em
 		padding 0   
 		margin 0 
+
+//feedback banner
+#feedback_banner
+	margin 8em 0 
+	padding 0 
+	text-align center
+	background-color none
+	width 100%
+	h2,h3,img,a,#feedback_txt,#feedback_banner,#social_container
+		display inline-block
+	h2
+		width 100%
+	#feedback_txt
+		border-radius 1em
+		padding 1em 
+		width 55%
+	a 
+		color #26C69F
+		text-decoration none
+	a:hover
+		text-decoration underline
+	#social_container
+		width 100%
+		padding 0 
+		margin 0 
+		li 
+			margin 0 1em
+			opacity .8
+		li:hover
+			opacity 1
 
 //about article
 #about_article
@@ -210,36 +238,10 @@ section
 				.avatar_img:hover
 					opacity 1
 					
-#feedback_banner
-	margin 8em 0 
-	padding 0 
-	text-align center
-	background-color none
-	width 100%
-	h2,h3,img,a,#feedback_txt,#feedback_banner,#social_container
-		display inline-block
-	h2
-		width 100%
-	#feedback_txt
-		border-radius 1em
-		padding 1em 
-		width 55%
-	a 
-		color #26C69F
-		text-decoration none
-	a:hover
-		text-decoration underline
-	#social_container
-		width 100%
-		padding 0 
-		margin 0 
-		li 
-			margin 0 1em
-			opacity .8
-		li:hover
-			opacity 1
-			
+
+
 @import "chart_conf.styl"
+@import "responsive.styl"
 			
 
 	
