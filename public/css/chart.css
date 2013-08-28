@@ -63,3 +63,5 @@ section .banner_1,section #b1_img,section #b1_txt,section #buy_buttons{display:i
 #feedback_banner #social_container{width:100%;padding:0;margin:0;}
 #feedback_banner #social_container li{margin:0 1em;opacity:.8}
 #feedback_banner #social_container li:hover{opacity:1}
+header{width:0%}
+section{display:none}
