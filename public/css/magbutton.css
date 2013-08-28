@@ -1,0 +1,29 @@
+.magbutton {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dddddd), color-stop(1, #ecf0f1) );
+	background:-moz-linear-gradient( center top, #ecf0f1 5%, #ecf0f1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#ecf0f1;
+	border-radius: 10px;
+	text-indent:0;
+	border:1px solid #33333;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:140px;
+	text-decoration:none;
+	text-align:center;
+}
+.magbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fff0ff), color-stop(1, #fff0ff) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#fff0ff;
+}.magbutton:active {
+	position:relative;
+	top:1px;
+}
