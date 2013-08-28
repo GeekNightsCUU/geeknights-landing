@@ -35,8 +35,6 @@ section .banner_1,section #b1_img,section #b1_txt,section #buy_buttons{display:i
 #banner_3 #screen_2{margin:0;padding:0;width:270px}
 .article_bans{margin-top:8em}
 .magbutton h2{font-size:1em;padding:0;margin:0}
-header{width:0%}
-section{display:none}
 #about_article{background-color:rgba(250,250,250,0.25);margin:4em 0;padding:0;text-align:center}
 #about_banner{display:inline-block;padding:0;margin:2em;width:55%;}
 #about_banner #about_txt{border-radius:1em;padding:1em;width:100%;}
@@ -56,3 +54,12 @@ section{display:none}
 #credits_article .creators_item li a{display:inline-block;}
 #credits_article .creators_item li a .avatar_img{border:solid .15em #000;border-radius:1em;width:100px;opacity:.8}
 #credits_article .creators_item li a .avatar_img:hover{opacity:1}
+#feedback_banner{margin:8em 0;padding:0;text-align:center;background-color:none;width:100%;}
+#feedback_banner h2,#feedback_banner h3,#feedback_banner img,#feedback_banner a,#feedback_banner #feedback_txt,#feedback_banner #feedback_banner,#feedback_banner #social_container{display:inline-block}
+#feedback_banner h2{width:100%}
+#feedback_banner #feedback_txt{border-radius:1em;padding:1em;width:55%}
+#feedback_banner a{color:#26c69f;text-decoration:none}
+#feedback_banner a:hover{text-decoration:underline}
+#feedback_banner #social_container{width:100%;padding:0;margin:0;}
+#feedback_banner #social_container li{margin:0 1em;opacity:.8}
+#feedback_banner #social_container li:hover{opacity:1}
