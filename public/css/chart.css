@@ -1,15 +1,16 @@
-body{background-color:#e74c46;padding:0;margin:0;font-size:16px;}
+body{background-color:#e74c46;padding:0;margin:0;font-size:16px;min-width:250px;}
 body h1{display:none}
 body img{display:inline-block;vertical-align:top;padding:0;margin:0;width:100%}
 body h3,body h2{color:#303030;font-family:'Nunito'}
 body a{text-decoration:none}
-body ul{list-style-type:none;}
-body ul li{display:inline-block}
+body ul{list-style-type:none;text-align:center;margin:0;width:100%;}
+body ul li{margin:0 .5em;display:inline-block}
 header{text-align:center;width:100%;}
 header img{width:450px}
 .txt_container{background-color:#ecf0f1;}
 .txt_container img{width:90px}
 section{width:100%;}
+section #nav_buttons{display:none}
 section article{margin:3em 0}
 section #banner_1{background-color:#ecf0f1;border-top-right-radius:30px;border-bottom-right-radius:30px;width:75%;}
 section #banner_1 #b1_img{position:relative;width:420px;height:auto}
@@ -34,6 +35,7 @@ section .banner_1,section #b1_img,section #b1_txt,section #buy_buttons{display:i
 #banner_3 #screen_2{margin:0;padding:0;width:270px}
 .article_bans{margin-top:8em}
 .magbutton h2{font-size:1em;padding:0;margin:0}
+#feedback_article{margin:0;border:solid .1em #e74c46}
 #feedback_banner{margin:8em 0;padding:0;text-align:center;background-color:none;width:100%;}
 #feedback_banner h2,#feedback_banner h3,#feedback_banner img,#feedback_banner a,#feedback_banner #feedback_txt,#feedback_banner #feedback_banner,#feedback_banner #social_container{display:inline-block}
 #feedback_banner h2{width:100%}
@@ -83,7 +85,10 @@ section #banner_3 #screen_2{width:250px}
 section #banner_3 h3{padding:0;font-size:1em}
 #feedback_banner{margin:0 0;}
 #feedback_banner #feedback_txt{width:55%;margin:2em}
-}@media only screen and (min-width : 300px ) and (max-width : 658px ){header img{width:330px}
+}@media only screen and (max-width : 658px ){body #nav_butons{margin:0;padding:0;}
+body #nav_butons li{margin:0 .2em}
+header{padding:0;margin:0;}
+header img{padding:0;margin:0;width:280px}
 section .article_bans{margin-top:2em}
 section #banner_1{text-align:center;border-radius:0;margin:0;padding:0;border-bottom:solid .1em #000;border-top:solid .1em #000;width:100%;}
 section #banner_1 #b1_img{margin-top:2.5em;margin-left:-1em;border-radius:.5em;width:250px}
@@ -93,25 +98,26 @@ section #banner_1 #b1_txt h2{font-size:1em}
 section #banner_1 #b1_txt #buy_buttons{margin:0;width:100%;}
 section #banner_1 #b1_txt #buy_buttons li img{width:90px}
 section #banner_2{width:100%;}
-section #banner_2 #b2_txt{margin:0;padding:0;width:100%;}
+section #banner_2 #b2_txt{margin:0;padding:0;border-radius:.2em;width:100%;}
 section #banner_2 #b2_txt #map_img{width:50px}
 section #banner_2 #screen_1{margin:0;margin-top:1em;padding:0;width:250px}
 section #banner_2 h3{font-size:.8em}
 section #banner_2 h2{font-size:1em}
 section #banner_3{margin-top:0;padding:0;width:100%;}
-section #banner_3 #b3_txt{margin:0;padding:0;width:100%;}
+section #banner_3 #b3_txt{margin:0;padding:0;width:100%;border-radius:.2em;}
 section #banner_3 #b3_txt #compass_img{width:50px}
 section #banner_3 #screen_2{width:180px;margin-bottom:1em}
 section #banner_3 h2{font-size:1em}
 section #banner_3 h3{padding:0;font-size:.8em}
-#feedback_banner{margin:0 0;width:100%;}
-#feedback_banner #feedback_txt{margin:2em .2em;width:100%;}
-#feedback_banner #feedback_txt h3{font-size:1em}
+#feedback_banner{margin:0 0;padding:0;width:100%;}
+#feedback_banner #feedback_txt{margin:2em 0;padding:.7em;width:90%;}
+#feedback_banner #feedback_txt h3{font-size:.9em}
 #feedback_banner #social_container img{width:60px}
-#about_banner{margin:2em .2em;width:100%;}
-#about_banner #about_txt{width:100%;}
-#about_banner #about_txt h3{font-size:1em}
-#credits_article{width:100%;padding:0;margin:0}
+#about_banner{margin:2em 0;width:90%;}
+#about_banner #about_txt{padding:.2em;margin:0;width:100%;}
+#about_banner #about_txt h3{font-size:.9em}
+#credits_article{width:100%;padding:0;margin:0;}
+#credits_article #credits_txt h3{font-size:.9em}
 .magbutton{width:80px;height:40px;padding:0;}
 .magbutton h2{margin:0;margin-top:-1.3em;padding:0;font-size:.7em;font-weight:bold}
 }
