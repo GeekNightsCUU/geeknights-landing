@@ -6,15 +6,16 @@ body a{text-decoration:none}
 body ul{list-style-type:none;text-align:center;margin:0;width:100%;}
 body ul li{margin:0 .5em;display:inline-block}
 header{text-align:center;width:100%;}
-header img{width:450px}
+header img{padding:0;margin:0;width:450px}
 .txt_container{background-color:#ecf0f1;}
 .txt_container img{width:90px}
-section{width:100%;}
-section #nav_buttons{display:none}
-section article{margin:3em 0}
-section #banner_1{background-color:#ecf0f1;border-top-right-radius:30px;border-bottom-right-radius:30px;width:75%;}
-section #banner_1 #b1_img{position:relative;width:420px;height:auto}
-section #banner_1 #b1_txt{text-align:center;margin:2em;width:45%;}
+section{text-align:center;width:100%;}
+section article{text-align:center;margin:3em 0}
+section #first_article{padding:1em;display:inline-block;background-color:#ecf0f1;border-radius:1em;width:70%;}
+section #first_article #b1_img{position:relative;border-radius:1em;padding:0;margin:0;width:360px;height:auto}
+section #nav_butons{margin:-2em 0 0 0;padding:0}
+section #banner_1{background-color:#ecf0f1;border-top-right-radius:30px;border-bottom-right-radius:30px;text-align:center;width:100%;}
+section #banner_1 #b1_txt{text-align:center;background-color:rgba(255,255,255,0);margin:0;padding:0;width:100%;}
 section #banner_1 #b1_txt #buy_buttons{margin:0;padding:0;width:100%;}
 section #banner_1 #b1_txt #buy_buttons li{display:inline-block;vertical-align:middle;padding:0;margin:.2em}
 section #banner_1 #ios_img,section #banner_1 #playstore_img{width:150px}
@@ -71,7 +72,7 @@ section #banner_1 #b1_txt h3{font-size:1em}
 section #banner_1 #b1_txt #buy_buttons li img{width:100px}
 }@media only screen and (min-width : 659px ) and (max-width : 991px ){section .article_bans{margin-top:5em}
 section #banner_1 #b1_img{margin-top:2em;margin-left:-1em;border-radius:0;width:220px}
-section #banner_1 #b1_txt{margin:1em;padding:.3em;}
+section #banner_1 #b1_txt{margin:0;padding:0;}
 section #banner_1 #b1_txt h3{font-size:1em}
 section #banner_1 #b1_txt #buy_buttons li img{width:100px}
 section #banner_2 #b2_txt{margin:0;padding:0;}
@@ -86,12 +87,12 @@ section #banner_3 h3{padding:0;font-size:1em}
 #feedback_banner{margin:0 0;}
 #feedback_banner #feedback_txt{width:55%;margin:2em}
 }@media only screen and (max-width : 658px ){body #nav_butons{margin:0;padding:0;}
-body #nav_butons li{margin:0 .2em}
+body #nav_butons li{margin:0 .05em}
 header{padding:0;margin:0;}
 header img{padding:0;margin:0;width:280px}
 section .article_bans{margin-top:2em}
-section #banner_1{text-align:center;border-radius:0;margin:0;padding:0;border-bottom:solid .1em #000;border-top:solid .1em #000;width:100%;}
-section #banner_1 #b1_img{margin-top:2.5em;margin-left:-1em;border-radius:.5em;width:250px}
+section #first_article #b1_img{width:200px}
+section #banner_1{text-align:center;border-radius:0;margin:0;padding:0;width:100%;}
 section #banner_1 #b1_txt{margin:0;padding:0;width:100%;}
 section #banner_1 #b1_txt h3{font-size:.8em}
 section #banner_1 #b1_txt h2{font-size:1em}
@@ -115,8 +116,10 @@ section #banner_3 h3{padding:0;font-size:.8em}
 #feedback_banner #social_container img{width:60px}
 #about_banner{margin:2em 0;width:90%;}
 #about_banner #about_txt{padding:.2em;margin:0;width:100%;}
+#about_banner #about_txt h2{font-size:1em}
 #about_banner #about_txt h3{font-size:.9em}
 #credits_article{width:100%;padding:0;margin:0;}
+#credits_article #credits_txt h2{font-size:1em}
 #credits_article #credits_txt h3{font-size:.9em}
 .magbutton{width:80px;height:40px;padding:0;}
 .magbutton h2{margin:0;margin-top:-1.3em;padding:0;font-size:.7em;font-weight:bold}
