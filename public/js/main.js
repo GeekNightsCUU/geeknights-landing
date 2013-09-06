@@ -11,10 +11,10 @@ $(function(){
   	}, 1700, function() {
     	$('header').animate({
     		width:"100%"
-    	},100,function(){
-    		$('section').fadeIn(1200);
-    	});
+    	},100);
+
   	});
+    $('section').fadeIn(1200);
 });	
 
 
