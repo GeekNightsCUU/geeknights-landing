@@ -1,3 +1,62 @@
-body{padding:0;margin:0;}
-body h1{display:none}
-#geek_header{display:inline-block;text-align:center;margin-top:10em;width:100%}
+body {
+  background-color: #f9fac9;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  width: 100%;
+}
+body .hello-container {
+  text-align: center;
+  padding-top: 4em;
+}
+body .hello-container .pizza-wrapper #pizza-logo {
+  display: inline-block;
+}
+body .hello-container .geeknightscuu-wrapper {
+  padding-top: 2em;
+}
+body .hello-container .geeknightscuu-wrapper #geeknightscuu {
+  display: inline-block;
+}
+body #weare {
+  padding: 0 2em;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+body #weare p {
+  color: #00d999;
+  line-height: 1em;
+  font-size: 1.5em;
+  padding: 0 0em;
+  margin: 0em 0;
+}
+body #weare p span {
+  font-weight: bold;
+}
+body #weare p a {
+  color: #00d999 !important;
+  font-weight: bold;
+}
+body #weare p a:hover {
+  color: #f00 !important;
+}
+body #weare #somos {
+  margin: 1em 0 0 0;
+}
+body #weare #chihuahua {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0.25em 0 1em 0;
+}
+body #weare .nosreunimos {
+  font-size: 1.25em;
+}
+body #weare #aveces {
+  font-size: 1.25em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+body #weare .grupos {
+  font-size: 1.25em;
+  margin: 0.25em 0;
+}
