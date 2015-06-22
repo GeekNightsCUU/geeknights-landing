@@ -1,3 +1,20 @@
-body{padding:0;margin:0;}
-body h1{display:none}
-#geek_header{display:inline-block;text-align:center;margin-top:10em;width:100%}
+body {
+  background-color: #f9fac9;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  width: 100%;
+}
+body .hello-container {
+  text-align: center;
+  padding-top: 4em;
+}
+body .hello-container .pizza-wrapper #pizza-logo {
+  display: inline-block;
+}
+body .hello-container .geeknightscuu-wrapper {
+  padding-top: 2em;
+}
+body .hello-container .geeknightscuu-wrapper #geeknightscuu {
+  display: inline-block;
+}
