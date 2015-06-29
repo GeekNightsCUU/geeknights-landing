@@ -1,5 +1,5 @@
 # geeknights-landing
-Website for GeekNightsCUU, live site: geeknightscuu.com
+Website for GeekNightsCUU, live site: http://www.geeknightscuu.com
 
 just write in your terminal 
 "foreman start"
